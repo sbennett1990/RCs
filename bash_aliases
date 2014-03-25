@@ -12,7 +12,8 @@ alias install='sudo aptitude install'
 alias pdf='evince'
 alias grep='egrep --color'
 alias last='last -n 40'
-#alias zzz='sudo pm-hibernate'
+
+# Some git things
 alias gs='git status'
 #alias gcom='git commit -a -m "cduvall: small changes"'
 alias gcm='git checkout master'
