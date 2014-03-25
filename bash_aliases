@@ -8,6 +8,7 @@ alias connectx='ssh bennettsh@student.cs.appstate.edu -X'
 #alias path='~/Dropbox/Programming/Bash\ Scripting/showpath'
 alias path='/usr/local/bin/showpath'
 
+alias c='clear'
 alias install='sudo aptitude install'
 alias pdf='evince'
 alias grep='egrep --color'
