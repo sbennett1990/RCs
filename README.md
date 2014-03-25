@@ -1,4 +1,5 @@
-RCs
-===
+#RCs
 
-Some Bash/FreeBSD rc scripts 
+Some common and/or usefull configuration scripts.
+
+Mostly RCs for Bash and FreeBSD.
