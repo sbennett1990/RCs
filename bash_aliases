@@ -22,6 +22,8 @@ alias lo='exit'
 
 # Some git things
 alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
 #alias gcom='git commit -a -m "cduvall: small changes"'
 alias gcm='git checkout master'
 alias hgrep='history | egrep'
