@@ -18,6 +18,7 @@ alias install='sudo aptitude install'
 alias pdf='evince'
 alias grep='egrep --color'
 alias last='last -n 40'
+alias lo='exit'
 
 # Some git things
 alias gs='git status'
