@@ -9,7 +9,7 @@ alias connectx='ssh bennettsh@student.cs.appstate.edu -X'
 alias path='/usr/local/bin/showpath'
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -AlF'
 alias la='ls -A'
 alias l='ls -CF'
 
