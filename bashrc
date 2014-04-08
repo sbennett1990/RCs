@@ -34,7 +34,7 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# enableble color support of ls and also add handy aliases
+# enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
@@ -77,10 +77,10 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\e[01;32m\]\u@\h\[\e[0m\]:\[\e[01;35m\]$(__git_ps1 "%s")\[\e[0m\]:\[\e[01;34m\]\w\[\e[0m\]\$ '
+    PS1='\[\e[01;32m\]\u@\h\[\e[0m\]:\[\e[01;35m\]$(__git_ps1 "%s")\[\e[0m\]:\[\e[01;34m\]\w\[\e[0m\]\n\$ '
    #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\n\$ '
 fi
 unset color_prompt force_color_prompt
 
