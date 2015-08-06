@@ -2,6 +2,8 @@ Remove-Item alias:\cat
 
 new-item alias:c -value Clear-Host
 new-item alias:l -value ls
+new-item alias:ll -value ls
+new-item alias:lo -value exit
 new-item alias:cat -value C:\Users\sbennet\bin\cat.exe
 new-item alias:fcat -value C:\Users\sbennet\bin\fcat.exe
 new-item alias:grep -value Select-String
