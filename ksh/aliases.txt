@@ -1,0 +1,17 @@
+# Must have aliases
+#   ksh Environment
+#   File: -> ~/.aliases
+
+# General environment aliases
+alias l='ls'
+alias la='ls -a'
+alias ll='ls -l'
+alias lla='ls -la'
+alias c='clear'
+alias lo='exit'
+alias als='less ~/.aliases'
+alias re='. ~/.profile'
+
+# Some more advanced ones
+#alias du=du\ -k
+#alias run='fc -s'

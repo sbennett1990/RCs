@@ -1,0 +1,19 @@
+# ksh initialization
+# File: -> ~/.profile
+
+PS1="[$(hostname)]\$PWD > "
+PS2="  > "
+
+PATH=/usr/bin:/etc:/usr/sbin:/usr/ucb:$HOME/bin:/usr/bin/X11:/sbin:.
+
+export PS1 PS2 PATH
+
+# Attempt to load my defined aliases
+if [[ -r ~/.aliases ]]; then
+    . ~/.aliases
+fi
+
+# Attempt to load my defined functions
+if [[ -r ~/.functions ]]; then
+    . ~/.functions
+fi

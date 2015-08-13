@@ -1,0 +1,26 @@
+# My list of function definitions
+#   ksh Environment
+#   File: -> ~/.functions
+
+# Function: m
+#     Better man page viewing.
+#     Since AIX does not use more, pipe the man page to less.
+#
+# Usage: %> m arg1
+#function m {
+#   /usr/bin/man "$1" | less
+#}
+
+# Override the chdir function that
+# is enabled by default in AIX
+#function chdir {
+#    cd "$1"
+#}
+
+# Override the setprompt function that
+# is enabled by default in AIX
+#function setprompt {
+#    PS1="[$(hostname)]\$PWD > "
+#    PS2="  > "
+#    export PS1 PS2
+#}
