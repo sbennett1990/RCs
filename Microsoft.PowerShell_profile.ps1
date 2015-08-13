@@ -12,6 +12,7 @@ new-item alias:java -value C:\IBM\WebSphere\AppServer\java\bin\java.exe
 new-item alias:javac -value C:\IBM\WebSphere\AppServer\java\bin\javac.exe
 new-item alias:commands -value Get-Command
 
+# Display a new word each time PowerShell opens 
 if ( test-path ~\bin\word.exe ) {
     ~\bin\word.exe
 }
