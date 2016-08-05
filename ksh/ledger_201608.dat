@@ -1,0 +1,84 @@
+# Ledger for August 2016
+
+Y2016
+
+# Monthly Expenses
+~ Monthly
+    Expenses:Rent                   $890.00
+    Expenses:Insurance              $
+    Expenses:Netflix                $9.60
+    Expenses:Utilities              $
+
+# Opening Balances
+08/01 Opening Balance
+    Assets:Bank:Checking:1          $12000.00
+    Assets:Bank:Checking:2          $15342.00
+    Liabilities:MasterCard         -$808.97
+    Liabilities:Student Loan 1     -$3632.82
+    Liabilities:Student Loan 2     -$1348.02
+    Equity:Opening Balances
+
+# Transactions
+2016/08/01 (1318) Brentwood
+    Expenses:Rent                   $890.00
+    Assets:Bank:Checking:1
+
+08/01 (1319) Time Warner Cable
+    Expenses:Utilities:Internet     $69.99
+    Assets:Bank:Checking:1
+
+08/01 (1320) Duke Energy
+    Expenses:Utilities:Electric     $69.91
+    Assets:Bank:Checking:1
+
+08/02 Rockcliff Oral Surgery
+    Expenses:Bills                  $196.00
+    Liabilities:MasterCard
+
+08/03 Lowe's Sky Mountain
+    Expenses:Food:Coffee            $1.75
+    Assets:Bank:Checking:1
+
+08/03 Vending Machine
+    Expenses:Food                   $0.90
+    Assets:Bank:Checking:1
+
+08/03 Lowe's Cafe
+    Expenses:Food                   $8.01
+    Assets:Bank:Checking:1
+
+08/03 Lowe's Sky Mountain
+    Expenses:Food:Coffee            $1.75
+    Assets:Bank:Checking:1
+
+08/03 Hobby Lobby
+    Expenses:Misc                   $11.19
+    Assets:Bank:Checking:1
+
+08/03 Lowe's
+    Expenses:Gifts                  $54.95
+    Assets:Bank:Checking:1
+
+08/03 Lowe's Foods
+    Expenses:Food:Groceries         $34.08
+    Assets:Bank:Checking:1
+
+08/04 Lowe's Sky Mountain
+    Expenses:Food:Coffee            $1.75
+    Assets:Bank:Checking:1
+
+08/04 Lowe's Cafe
+    Expenses:Food                   $5.00
+    Assets:Bank:Checking:1
+
+08/03 Vending Machine
+    Expenses:Food                   $1.00
+    Assets:Bank:Checking:1
+
+08/04 Fusion Bowl
+    Expenses:Food                   $14.76
+    Assets:Bank:Checking:1
+
+08/05 Paycheck - Lowe's
+    Assets:Bank:Checking:1          $
+    Income:Salary
